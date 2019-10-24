@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <!--- Meta tags -->
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <meta name="description" content="Nestlé products ">
+       <meta name="keywords" content="Nestlé, catalog of products, Nestlé a la mano ">
+       <meta name="author" content="Preminens Agencia">
+       <meta name="copyright" content="Nestle 2019">
+       <link rel="stylesheet" href="css/style.css">
+
+       <title>Nestlé a la mano - Home</title>
+       <style>
+               @font-face {
+      font-family: "Montserrat Light";
+      src: url(../assets/webfonts/Montserrat-Light.woff) format("truetype");
+      }
+
+  @font-face {
+    font-family: "Montserrat Medium";
+    src: url(../assets/webfonts/Montserrat-Medium.woff) format("truetype");
+    }
+
+  @font-face {
+  font-family: "Montserrat Bold";
+  src: url(../assets/webfonts/Montserrat-Bold.woff) format("truetype");
+  }
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+div.page {
+
+}
+
+div.header {
+    background-color: black;
+    font-family: 'Montserrat Bold';
+    font-size: 2.5vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapp-content {
+    padding: 0px 5%;
+}
+
+div.top-decoration {
+    height: 35px;
+    width: 100%;
+    display: flex;
+}
+
+div.container-write {
+    width: 100%;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+div.tittle-bajada {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 5vw;
+}
+
+div.tittle-bajada > div:nth-child(1) {
+    display: inline-flex;
+    align-items: center;
+    z-index: 100;
+}
+div.tittle-bajada > div:nth-child(1) > img {
+    width: 20%;
+}
+
+div.tittle-bajada > div:nth-child(1) > h5 {
+    padding-left: 15px;
+    font-size: 1.4rem;
+    color: white;
+    font-family: 'Montserrat Bold';
+}
+
+.inner-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+div.grid-area {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+    max-width: 100%;
+}
+
+div.full-img > img {
+    width: 100%;
+    height: auto;
+}
+
+.columna-unidad {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+}
+
+div.columna-unidad > img {
+    width: 15vw;
+}
+.title-product {
+    font-family: 'Montserrat Bold';
+    background-color: #283138;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: .5em 0em .5em .5em;
+    font-size: 1.2rem;
+}
+
+.inner-product {
+    font-family: 'Montserrat Light';
+    background-color: white;
+    color: #283138;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: .2em 0em .2em .5em;
+}
+
+.item {
+    font-family: 'Montserrat Light';
+    background-color: white;
+    color: #283138;
+    font-size: 1.2rem;
+}
+
+.description {
+    font-family: 'Montserrat Light';
+    background-color: white;
+    color: #283138;
+    letter-spacing: .5px;
+    font-size: 1.2rem;
+}
+
+.column-grey {
+    font-family: 'Montserrat Bold';
+    background-color: #bebcbb;
+    color: #283138;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: .2em 0em .2em .5em;
+    font-size: 1.2rem;
+
+}
+
+.col-1-1 {
+    width: 35%;
+    height: auto;
+    display: block;
+}
+
+.col-1-2 {
+    width: 65%;
+    height: auto;
+    display: block;
+}
+
+.col-100 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+       </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="full-img">
+                <img src="../datafiles/ar/catalogos/img/caratula.jpg" alt="">
+        </div>
+        <div class="full-img">
+            <img src="../datafiles/ar/catalogos/img/bebidas.jpg" alt="">
+        </div>
+        <div class="page">
+            <div class="header wrapp-content" style="color: #ffffff">
+                <h5>BEBIDAS</h5>
+            </div>
+            <div class="top-decoration" style="background-color: yellow;">
+                <div class="container-write"></div>
+            </div>
+            <div class="tittle-bajada" style="background-color: yellow;">
+                <div>
+                    <img src="../datafiles/ar/logos-baja/nesquik.jpg" alt="">
+                     <h5>Nesquik - LECHE CHOCOLATADA</h5>
+                </div>
+            </div>
+            <div class="inner-content" style="background-color: yellow;">
+                <div class="container-write">
+                    <div class="grid-area">
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-decoration" style="background-color: yellow;">
+                <div class="container-write"></div>
+            </div>
+        </div>
+        <div class="full-img">
+            <img src="../datafiles/ar/catalogos/img/cafe.jpg" alt="">
+        </div>
+        <div class="page">
+            <div class="header wrapp-content" style="color: #ffffff">
+                <h5>CAFÉ</h5>
+            </div>
+            <div class="top-decoration" style="background-color: #330a0a;">
+                <div class="container-write"></div>
+            </div>
+            <div class="tittle-bajada" style="background-color: #330a0a;">
+                <div>
+                    <img src="../datafiles/ar/logos-baja/nes" alt="">
+                     <h5>NESCAFÉ - Puros</h5>
+                </div>
+            </div>
+            <div class="inner-content" style="background-color: #330a0a;">
+                <div class="container-write">
+                    <div class="grid-area">
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                        <div class="columna-unidad">
+                            <img src="../datafiles/ar/producto-150/7613034453600.jpg" alt="">
+                            <div class="title-product">NESQUIK Polvo chocolatado</div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">7613034450074</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">GRAMAJE</div>
+                                <div class="description col-1-2">180gr</div>
+                            </div>
+                            <div class="inner-product">
+                                <div class="item col-1-1">EAN</div>
+                                <div class="description col-1-2">12300736</div>
+                            </div>
+                            <div class="column-grey">
+                                <div class="col-100">UXB - 18x180gr </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-decoration" style="background-color: #330a0a;">
+                <div class="container-write"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

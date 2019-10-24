@@ -1,0 +1,761 @@
+/*Catalog of products*/
+
+@font-face {
+    font-family: "Montserrat ExtraLight";
+    src: url(../webfonts/Montserrat-ExtraLight.woff) format("truetype");
+    }
+  
+  @font-face {
+    font-family: "Montserrat Medium";
+    src: url(../webfonts/Montserrat-Medium.woff) format("truetype");
+    }    
+  
+  @font-face {
+  font-family: "Montserrat SemiBold";
+  src: url(../webfonts/Montserrat-SemiBold.woff) format("truetype");
+  }
+  
+  @font-face {
+  font-family: "Montserrat Bold";
+  src: url(../webfonts/Montserrat-Bold.woff) format("truetype");
+  }
+
+
+/*-----------------Catalog of products Section 1-----------------*/
+.bg-card{
+  max-width: 20em;
+  max-height: 18em;
+  min-width: 9em;
+  min-height: 8em;
+  text-align: center;
+  color: #fff !important;
+  font-family: 'Montserrat SemiBold';
+  font-size: 20px;
+  margin: 0.3em 0em ;
+  animation-duration: .2s;
+  animation-delay: 0s;
+}
+
+
+.img-card-icon{
+    margin: 1em;
+   max-width: 70px;
+}
+
+.wrap-height{
+   margin: 3.5vh auto 4.5em;
+}
+
+/*--------------Download Catalog pdf------------------*/
+
+.icon-catalog{
+    margin: 1em 0em .5em  0em;
+    max-width: 35%;
+}
+
+.icon-download{
+   margin: .5rem 0em 0em 0em;
+   max-width: 12%;
+}
+
+.catalog-subtitle {
+    color: #fff;
+    font-family: 'Montserrat Light';
+    font-size: 22px;
+    line-height: 1em;
+}
+
+.catalog-card{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff !important;
+    font-family: 'Montserrat SemiBold';
+    font-size: 22px;
+    margin: 0.5em 0em ;
+    animation-duration: 2s;
+    animation-delay: 0s;
+  }
+
+#catalog-grid div.col-12.col-md.col-sm{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.wrap-catalog{
+    padding-top: 3.5vh ;
+    padding-bottom: .5vh ;
+}
+
+/*----------------Success Photo Section----------------------- */
+
+div#photoexit-grid.row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.accordion2{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -ms-center;
+    text-align: -o-center;
+}
+
+.accordion3{
+ text-align: -webkit-right;
+ text-align: -moz-right;
+ text-align: -ms-right;
+ text-align: -o-right;
+}
+
+.icon-down-arrow{
+    width: 5%;
+    padding-top: .5em;
+}
+
+.photoexit-title{
+  font-family: 'Montserrat Bold';
+}
+
+.pop-title{
+    font-family: 'Montserrat Bold';
+    font-size: 22px;
+    padding-top: 1.2em;
+  }
+
+.icon-photosucess{
+    margin: 1em;
+    max-width: 78px;
+}
+
+.photoexit-card{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    color: #fff !important;
+    font-family: 'Montserrat SemiBold';
+    margin: 0.5em 0em;
+}
+
+.pop-card {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    color: #fff !important;
+    font-family: 'Montserrat SemiBold';
+    margin: 0.5em 0em;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    align-self: ;
+}
+
+
+#listaMAYORISTAS ul.list-group, #listaSMK ul.list-group, #listaFULLNES ul.list-group {
+    width: 90%;
+    text-align: left;
+}
+
+
+#catalog-categories div#photoexit-grid li.list-group-item {
+    padding-bottom: 4px;   
+}
+
+#pop-campanas ul.list-group, #pop-genericos ul.list-group {
+    width: 90%;
+    text-align: -webkit-auto;
+    text-align: -moz-auto;
+    text-align: -ms-auto;
+    text-align: -o-auto;
+}
+
+
+
+.list-group-item {
+    border: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+
+.icon-products-list{
+    width: 18px;
+    margin-right: 15px;
+}
+
+.icon-arrow-submenu {
+    width: auto;
+    height: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transform: rotate(0deg);
+    transition: transform .2s linear;
+
+  }
+
+  .icon-arrow-submenu::before {
+    padding-right: 20px;
+    padding-left: 20px;
+    transform: rotate(90deg);
+    transition: transform .2s linear;
+  }
+
+  .text-item-category{
+   font-size: 14px;
+   font-family: 'Montserrat Medium';
+   color: #7B7B7B;
+  }
+
+  .text-subitem{
+      font-family: 'Montserrat Medium';
+      font-size: 14px;
+      color: #7B7B7B;
+  }
+
+  .ul-margin{
+    margin-left: .5em;
+  }
+
+  .tooltip-inner{
+      font-family: 'Montserrat Medium';
+      background-color: #ffffff;
+      color: #d62430;
+      opacity: 1;
+  }
+
+  .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before{
+    border-top-color: #ffffff;
+  }
+
+ 
+
+@media (max-width: 575.98px) and (min-width: 300px) { 
+    
+    .bg-card {
+        max-width: 24em;
+        min-width: 10em;
+        max-height: 14em;
+        min-height: 8em;
+     }
+
+     #content-wrap {
+        margin-bottom: 0rem;
+    }
+
+    .titulo-productos, .subtitulo-productos{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #box-9 {
+        /* max-width: 10em;
+        min-width: 5em; */
+    }
+
+    .icon-catalog{
+        margin: 1em 0em .5em  0em;
+        min-width: 20%;
+        max-width: 20%;
+    }
+    
+    .icon-download{
+       margin: .5rem 0em 0em 0em;
+       max-width: 15%;
+    }
+    
+    .catalog-subtitle {
+        color: #fff;
+        font-family: 'Montserrat Light';
+        font-size: 20px;
+    }
+    
+    .catalog-card{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        color: #fff !important;
+        font-family: 'Montserrat SemiBold';
+        font-size: 20px;
+        margin: 0.5em 0em ;
+        animation-duration: 2s;
+        animation-delay: 0s;
+      }
+    
+     #catalog-grid div.col-12.col-md.col-sm{
+            padding-right: 25px;
+            padding-left: 25px;
+    }
+
+    #catalog-categories {
+        height: 62vh !important;
+        overflow-y: auto;
+    }
+
+ /* Foto delExito */
+ .icon-products-list {
+    width: 18px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.text-item-category{
+    padding-left: 0em;
+    font-size: 12px;
+  }
+
+div#photoexit-grid li.list-group-item {
+    padding-bottom: 4px;
+}
+
+.text-subitem{
+    font-size: 12px;
+}
+
+.ul-margin{
+    margin-left: 0px;
+}
+
+  #photoexit-grid div.col-12.col-md.col-sm {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.icon-down-arrow{
+    width: 15px;
+}
+
+.icon-photosucess{
+    margin: 1.5em 0em .5em  0em;
+    width: 80px;
+}
+
+.accordion1,.accordion2,.accordion3{
+    text-align: -webkit-center;
+    text-align: -moz-auto;
+    text-align: -ms-auto;
+    text-align: -o-auto;
+}
+
+.accordion1,.accordion2,.accordion3{
+    text-align: -moz-center;
+}
+
+/* Catalogo padding alredor de card */
+.wrap-height {
+    margin: 0em auto 3.5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.wrap-catalog{
+    padding-top: 3.5vh ;
+    padding-bottom: 3.5vh ;
+}
+
+
+
+
+ }
+ 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+#content-wrap {
+    margin-bottom: 0rem;
+}
+
+#content-categories div div.col.col-md.col-sm{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.bg-card{
+   max-width: 13em;
+   max-height: 12em;
+   min-width: 7em;
+   min-height: 10em;
+   font-size: 16px;
+   margin: 0.5em 0em ;
+}
+
+.wrap-height{
+    margin: .8em auto 5.5em;
+ }
+    
+h5 {
+   font-size: 16px;
+}
+
+.titulo-productos, .subtitulo-productos {
+    font-size: 16px;
+}
+
+#catalog-grid div.col-12.col-md.col-sm {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Foto del exito*/
+
+.icon-photosucess{
+    margin: 1.5em 0em .5em  0em;
+    width: 100px;
+}   
+.accordion1,.accordion2,.accordion3{
+    text-align: -webkit-center;
+    text-align: -moz-auto;
+    text-align: -ms-auto;
+    text-align: -o-auto;
+}
+
+.ul-margin {
+    margin-left: 13px;
+}
+
+
+.wrap-height{
+    margin: .8vh auto 3.5vh;
+ }
+
+.wrap-catalog {
+    padding-top: .8vh;
+    padding-bottom: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+#content-categories {
+    height: 67vh;
+    overflow-y: auto;
+  }
+  
+    #content-categories::-webkit-scrollbar{
+      width: 8px; 
+      height: 8px; 
+    } 
+    
+    #content-categories::-moz-scrollbar{
+      width: 8px; 
+      height: 8px; 
+    } 
+    
+    #content-categories::-webkit-scrollbar-thumb {
+      background: #0069b4 ;
+      border-radius: 4px;
+    }
+    
+    #content-categories::-moz-scrollbar-thumb {
+    background: #0069b4 ;
+    border-radius: 4px;
+    }
+    
+    #content-categories::-webkit-scrollbar-thumb:hover {
+    background:  #01548f;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    
+    #content-categories::-moz-scrollbar-thumb:hover {
+    background:  #01548f;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    
+    #content-categories::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    }
+    
+    #content-categories::-moz-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    }
+  
+
+ }
+
+/*  Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.bg-card{
+    max-width: 10em;
+    max-height: 15em;
+    min-width: 115px;
+    min-height: 128px;
+    text-align: center;
+    color: #fff !important;
+    font-family: 'Montserrat SemiBold';
+    font-size: 16px;
+    margin: 0.5em 0em;
+  }
+
+  .card-body {
+    padding: .9rem;
+}
+
+  h5 {
+    font-size: 10px;
+  }
+
+  #content-categories div div.col.col-md{
+  padding-right: 10px;
+  padding-left: 10px;
+  }
+  
+  #content-wrap{
+      margin-bottom: 0em;
+  }
+  
+/*----------------- Foto del exito-------------------*/
+
+.icon-photosucess{
+    margin: 1.5em 0em .5em  0em;
+    width: 60px;
+}  
+
+.photoexit-card{
+    width: 100%;
+    height: auto;    
+    margin: 0.5em 0em;    
+}
+
+.pop-card{
+    width: 100%;
+    height: auto;    
+    margin: 0.5em 0em;    
+}
+
+.pop-title {
+    font-size: 18px;
+}
+
+#listaMAYORISTA ul.list-group, #listaSMK ul.list-group, #listaFULLNES ul.list-group {
+    width: 100%;
+}
+
+/*---------------------POP Section -----------------------*/
+
+#pop-campanas ul.list-group, #pop-genericos {
+    width: 95%;
+}
+
+#photoexit-grid div.col-12.col-md.col-sm {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.icon-down-arrow{
+    width: 20px;
+    padding-top: 1.5em;
+}
+
+.icon-products-list {
+    width: 18px;
+    margin-right: 15px;
+}
+
+.text-item-category {
+    font-size: 12px;
+    font-family: 'Montserrat Medium';
+    color: #7B7B7B;
+}
+.text-subitem{
+   font-size: 12px;
+}
+.ul-margin{
+   margin-left: .5em;
+}
+
+#photoexit-grid.row > .col-md{
+    max-width: 33%;
+}
+ 
+
+.wrap-height{
+    margin: .8vh auto 3.5vh;
+ }
+
+ .wrap-catalog{
+    padding-top: .8vh ;
+    padding-bottom: 4.5vh ;
+}
+
+/*----------------Catalogo de productos--------------------*/
+#content-categories {
+  height: 75vh;
+  overflow-y: auto;
+}
+
+  #content-categories::-webkit-scrollbar{
+    width: 8px; 
+    height: 8px; 
+  } 
+  
+  #content-categories::-moz-scrollbar{
+    width: 8px; 
+    height: 8px; 
+  } 
+  
+  #content-categories::-webkit-scrollbar-thumb {
+    background: #0069b4 ;
+    border-radius: 4px;
+  }
+  
+  #content-categories::-moz-scrollbar-thumb {
+  background: #0069b4 ;
+  border-radius: 4px;
+  }
+  
+  #content-categories::-webkit-scrollbar-thumb:hover {
+  background:  #01548f;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  #content-categories::-moz-scrollbar-thumb:hover {
+  background:  #01548f;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  #content-categories::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  }
+  
+  #content-categories::-moz-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  }
+
+}
+
+ 
+/*  Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .bg-card{
+        max-width: 10em;
+        max-height: 12em;
+        min-width: 7em;
+        min-height: 9em;
+        text-align: center;
+        color: #fff !important;
+        font-family: 'Montserrat SemiBold';
+        font-size: 20px;
+        margin: 0.5em 0em ;
+      }
+
+      /* PHOTO SUCESS*/
+      h5 {
+        font-size: 16px;
+    }
+
+    .photoexit-card{
+        width: 95%;
+        height: auto;
+        text-align: center;
+        color: #fff !important;
+        font-family: 'Montserrat SemiBold';
+        margin: 0.5em 0em;
+    }
+
+    .pop-card{
+        width: 95%;
+        height: auto;
+        text-align: center;
+        color: #fff !important;
+        font-family: 'Montserrat SemiBold';
+        margin: 0.5em 0em;
+    }
+    
+    
+    #listaMAYORISTA ul.list-group, #listaSMK ul.list-group, #listaFULLNES ul.list-group {
+        width: 95%;
+    }
+
+    #pop-campanas ul.list-group, #pop-genericos {
+        width: 95%;
+    }
+
+    #photoexit-grid div.col-12.col-md.col-sm {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .icon-down-arrow{
+        width: 20px;
+        padding-top: 1.5em;
+    }
+
+    .icon-products-list {
+        width: 18px;
+        margin-right: 15px;
+        padding: 0em;
+    }
+
+    .text-item-category {
+        font-size: 12px;
+        font-family: 'Montserrat Medium';
+        color: #7B7B7B;
+    }
+   .text-subitem{
+       font-size: 12px;
+   }
+   .ul-margin{
+       margin-left: .5em;
+   }
+
+   .wrap-height{
+    margin: .8vh auto 4.5em;
+ }
+
+ .wrap-catalog{
+    padding-top: .8vh ;
+    padding-bottom: 4.5em ;
+}
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1499px) { 
+
+    /*Photo success */
+ .text-item-category {
+     font-size: 12px;
+     font-family: 'Montserrat Medium';
+     color: #7B7B7B;
+ }
+.text-subitem{
+    font-size: 12px;
+}
+.ul-margin{
+    margin-left: .2em;
+}
+
+#listaFULLNES ul.list-group {
+   margin-left: 2.2em;
+}
+
+.icon-products-list{
+    width: 18px;
+    margin-right: 15px;
+}
+
+/* POP */
+.wrap-catalog {
+    padding-top: 3.5vh;
+    padding-bottom: 2vh;
+}
+
+.wrap-height {
+    margin: 3.5vh auto 4.5vh;
+ }
+
+#pop-categories {
+    height: 67vh !important;
+    overflow-y: auto;
+}
+
+
+}
